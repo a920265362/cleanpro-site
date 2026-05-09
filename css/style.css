@@ -177,7 +177,7 @@ h3 { font-size:1.2rem; font-weight:700; }
 
 /* Form */
 .inquiry-form {
-  background:var(--bg-card); border:1px solid var(--border); padding:2.5rem; max-width:700px; margin:0 auto;
+  background:var(--white); border:1px solid var(--border); padding:2.5rem; max-width:700px; margin:0 auto; box-shadow:var(--shadow-sm);
 }
 .form-row { display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; }
 .form-group { margin-bottom:1.2rem; }
