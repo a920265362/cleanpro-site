@@ -213,6 +213,24 @@ h3 { font-size:1.25rem; font-weight:700; }
 .faq-item[open] summary::after { content:'−'; }
 .faq-item p { margin-top:0.8rem; color:var(--text-muted); font-size:0.95rem; line-height:1.7; }
 
+/* Cert badges */
+.cert-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.5rem; }
+.cert-badge {
+  background:#fff; border:1px solid var(--border); border-radius:var(--radius);
+  padding:2.5rem 1.5rem; text-align:center; transition:all 0.3s;
+}
+.cert-badge:hover { border-color:var(--brand); box-shadow:0 12px 40px rgba(14,165,233,0.1); transform:translateY(-3px); }
+.cert-badge-icon { color:var(--brand); margin-bottom:1rem; display:flex; justify-content:center; }
+.cert-badge h4 { font-size:1rem; margin-bottom:0.5rem; color:#0f172a; }
+.cert-badge p { font-size:0.85rem; color:var(--text-muted); line-height:1.6; }
+
+/* Count-up animation */
+@keyframes countIn { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:translateY(0)} }
+.trust-item { animation:countIn 0.8s ease-out forwards; }
+.trust-item:nth-child(2) { animation-delay:0.2s; }
+.trust-item:nth-child(3) { animation-delay:0.4s; }
+.trust-item:nth-child(4) { animation-delay:0.6s; }
+
 /* Animations */
 @keyframes fadeInUp { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:translateY(0)} }
 .animate { animation:fadeInUp 0.6s ease-out; }
