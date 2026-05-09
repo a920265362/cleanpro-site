@@ -1,0 +1,15 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/products", "destination": "/products.html" },
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/private-label", "destination": "/private-label.html" },
+    { "source": "/eco-friendly", "destination": "/eco-friendly.html" },
+    { "source": "/floor-cleaner-oem", "destination": "/floor-cleaner-oem.html" },
+    { "source": "/laundry-detergent-oem", "destination": "/laundry-detergent-oem.html" },
+    { "source": "/disinfectant-manufacturer", "destination": "/disinfectant-manufacturer.html" },
+    { "source": "/cleaning-chemical-bulk", "destination": "/cleaning-chemical-bulk.html" }
+  ]
+}
