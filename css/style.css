@@ -177,7 +177,16 @@ h3 { font-size:1.2rem; font-weight:700; }
 
 /* Form */
 .inquiry-form {
-  background:var(--white); border:1px solid var(--border); padding:2.5rem; max-width:700px; margin:0 auto; box-shadow:var(--shadow-sm);
+  background:var(--white); border:1px solid var(--border); border-top:3px solid var(--gold);
+  padding:2.5rem; max-width:700px; margin:0 auto; box-shadow:0 2px 24px rgba(0,0,0,0.06);
+}
+.inquiry-form button[type=submit] {
+  background:var(--navy); color:var(--white); padding:1rem 3rem; font-weight:700;
+  font-size:0.95rem; letter-spacing:1px; border:none; cursor:pointer;
+  transition:all 0.25s; text-transform:uppercase;
+}
+.inquiry-form button[type=submit]:hover {
+  background:var(--gold); transform:translateY(-1px); box-shadow:0 4px 16px rgba(200,150,62,0.3);
 }
 .form-row { display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; }
 .form-group { margin-bottom:1.2rem; }
