@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us — CleanPro</title>
+<meta name="description" content="Family-owned cleaning products factory since 2010. ISO 9001, GMP certified. 15,000m² facility, 300+ formulas, exports to 50+ countries.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"><link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+<nav class="nav"><div class="container nav-inner">
+  <a href="index.html" class="logo">cleanpro<span class="logo-dot">.</span></a>
+  <ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li><li><a href="about.html" class="active">About</a></li><li><a href="contact.html">Contact</a></li></ul>
+  <a href="contact.html" class="btn btn-primary nav-cta">Get Quote</a>
+  <button class="menu-toggle" onclick="document.getElementById('mobileMenu').classList.toggle('open')" aria-label="Menu">☰</button>
+</div></nav>
+<div class="mobile-menu" id="mobileMenu"><a href="index.html">Home</a><a href="products.html">Products</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+
+<section class="section"><div class="container" style="max-width:800px;text-align:center;">
+  <span class="tag">About CleanPro</span>
+  <h2>Family-owned. Globally trusted.</h2>
+  <p style="color:var(--text-muted);font-size:1.1rem;margin-top:1rem;">Since 2010, we've been helping brands worldwide bring high-quality cleaning products to market. What started as a small family factory has grown into a trusted manufacturing partner for over 300 brands across 50 countries.</p>
+</div></section>
+
+<section class="section section-light"><div class="container">
+  <div class="about-stats">
+    <div class="astat"><span class="astat-num gradient-text">2010</span><span class="astat-label">Founded</span></div>
+    <div class="astat"><span class="astat-num gradient-text">15,000m²</span><span class="astat-label">Factory Area</span></div>
+    <div class="astat"><span class="astat-num gradient-text">50+</span><span class="astat-label">Export Countries</span></div>
+    <div class="astat"><span class="astat-num gradient-text">300+</span><span class="astat-label">Brand Partners</span></div>
+  </div>
+</div></section>
+
+<section class="section" id="factory"><div class="container"><div class="about-grid">
+  <div>
+    <span class="tag">Our Factory</span>
+    <h2>Modern manufacturing facility</h2>
+    <p>Our 15,000m² facility houses 8 production lines with a combined capacity of 20,000 tons per year. We operate under strict GMP (Good Manufacturing Practice) standards.</p>
+    <ul class="checklist">
+      <li>8 automated filling lines (200mL to 1000L)</li>
+      <li>In-house R&D laboratory with 5 chemists</li>
+      <li>Climate-controlled raw material warehouse</li>
+      <li>Dedicated quality control laboratory</li>
+      <li>Explosion-proof mixing for solvent-based products</li>
+      <li>On-site wastewater treatment system</li>
+    </ul>
+  </div>
+  <div class="factory-visual">
+    <div class="fv-item">🏭<span>Manufacturing</span></div>
+    <div class="fv-item">🧪<span>R&D Lab</span></div>
+    <div class="fv-item">📦<span>Warehouse</span></div>
+    <div class="fv-item">🔬<span>QC Testing</span></div>
+  </div>
+</div></div></section>
+
+<section class="section section-light" id="quality"><div class="container"><div class="about-grid">
+  <div>
+    <span class="tag">Quality Control</span>
+    <h2>Every batch, tested.</h2>
+    <p>Quality isn't negotiable. Our QC process spans from raw material inspection to finished product testing. We provide complete documentation for every shipment.</p>
+    <ul class="checklist">
+      <li><strong>MSDS</strong> — Material Safety Data Sheet</li>
+      <li><strong>COA</strong> — Certificate of Analysis per batch</li>
+      <li><strong>TDS</strong> — Technical Data Sheet</li>
+      <li><strong>Stability Reports</strong> — Accelerated aging tests</li>
+      <li><strong>Microbial Testing</strong> — For preservative efficacy</li>
+    </ul>
+  </div>
+  <div class="certs">
+    <div class="cert">ISO 9001</div>
+    <div class="cert">GMP</div>
+    <div class="cert">REACH</div>
+    <div class="cert">CE</div>
+  </div>
+</div></div></section>
+
+<section class="section" id="oem"><div class="container" style="max-width:800px;text-align:center;">
+  <span class="tag">OEM / ODM</span>
+  <h2>Your brand, our expertise</h2>
+  <p style="color:var(--text-muted);max-width:600px;margin:1rem auto 2rem;">We make it easy to launch your own cleaning product line. Our team handles everything from formula development to final packaging.</p>
+  <div class="grid-3">
+    <div class="oem-card"><span class="oem-step">01</span><h4>Formula Match</h4><p>Send us a sample or describe what you want. We'll develop a formula that matches or exceeds it.</p></div>
+    <div class="oem-card"><span class="oem-step">02</span><h4>Packaging Design</h4><p>Choose from our bottle library or custom mold. We handle label design and printing.</p></div>
+    <div class="oem-card"><span class="oem-step">03</span><h4>Production & Ship</h4><p>Manufacturing, filling, packing, and shipping — all under one roof.</p></div>
+  </div>
+</div></section>
+
+<section class="section section-light"><div class="container" style="text-align:center;">
+  <span class="tag">Get Started</span>
+  <h2>Request a Quote</h2>
+  <p style="color:var(--text-muted);font-size:1.1rem;margin:0.5rem auto 2rem;">Tell us about your cleaning product needs — we'll respond within 24 hours.</p>
+  <form class="inquiry-form" name="inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="inquiry">
+    <p style="display:none;"><label>Don't fill: <input name="bot-field"></label></p>
+    <div class="form-row">
+      <div class="form-group"><label>Company Name *</label><input type="text" name="company" required placeholder="Your company"></div>
+      <div class="form-group"><label>Contact Name *</label><input type="text" name="name" required placeholder="Your name"></div>
+    </div>
+    <div class="form-row">
+      <div class="form-group"><label>Email *</label><input type="email" name="email" required placeholder="you@company.com"></div>
+      <div class="form-group"><label>Phone / WhatsApp</label><input type="tel" name="phone" placeholder="+1 234 567 890"></div>
+    </div>
+    <div class="form-group"><label>Product Category</label><select name="category"><option value="">Select a category</option><option value="floor">Floor Cleaners</option><option value="bathroom">Bathroom Cleaners</option><option value="kitchen">Kitchen & Degreasers</option><option value="glass">Glass Cleaners</option><option value="laundry">Laundry Products</option><option value="multi">Multi-Purpose Cleaners</option><option value="other">Other / Custom</option></select></div>
+    <div class="form-group"><label>Tell us about your requirements *</label><textarea name="message" required rows="4" placeholder="Product type, volume, packaging preference, target market... The more details, the better the quote."></textarea></div>
+    <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Send Inquiry →</button>
+  </form>
+</div></section>
+
+<footer class="footer"><div class="container footer-grid">
+  <div class="footer-brand"><h4>cleanpro<span style="color:var(--brand);">.</span></h4><p>Professional cleaning products manufacturer. Custom formulation, private label, and wholesale supply since 2010.</p></div>
+  <div class="footer-col"><h4>Products</h4><a href="products.html#floor">Floor Cleaners</a><a href="products.html#bathroom">Bathroom Cleaners</a><a href="products.html#kitchen">Kitchen & Degreasers</a><a href="products.html#glass">Glass Cleaners</a><a href="products.html#laundry">Laundry Products</a></div>
+  <div class="footer-col"><h4>Company</h4><a href="about.html">About Us</a><a href="about.html#factory">Our Factory</a><a href="about.html#quality">Quality Control</a><a href="about.html#oem">OEM / ODM</a></div>
+  <div class="footer-col"><h4>Contact</h4><a href="contact.html">Get a Quote</a><a href="mailto:info@cleanpro.com">info@cleanpro.com</a><p class="footer-lang">🌐 EN | 中文 | Español</p></div>
+</div>
+<div class="container footer-bottom"><p>&copy; 2026 CleanPro. All rights reserved.</p><div><a href="#">Privacy Policy</a> <span style="color:#27272a;">|</span> <a href="#">Terms</a></div></div></footer>
+</body></html>
