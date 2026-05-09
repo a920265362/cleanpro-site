@@ -119,10 +119,10 @@ h3 { font-size:1.2rem; font-weight:700; }
 .hero-stat .hs-num { font-size:2rem; font-weight:800; color:var(--gold); }
 .hero-stat .hs-label { font-size:0.8rem; color:rgba(255,255,255,0.45); text-transform:uppercase; letter-spacing:1px; }
 .hero-visual { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
-.hv-card { background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); padding:1.5rem; text-align:center; }
+.hv-card { background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.12); padding:1.5rem; text-align:center; }
 .hv-card .hv-icon { font-size:2rem; margin-bottom:0.5rem; }
-.hv-card .hv-title { font-weight:700; font-size:0.9rem; margin-bottom:0.2rem; }
-.hv-card .hv-desc { font-size:0.8rem; color:rgba(255,255,255,0.45); }
+.hv-card .hv-title { font-weight:700; font-size:0.9rem; margin-bottom:0.2rem; color:var(--white); }
+.hv-card .hv-desc { font-size:0.8rem; color:rgba(255,255,255,0.7); }
 
 /* Cert section */
 .cert-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.5rem; }
